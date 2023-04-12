@@ -32,7 +32,8 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, .9);
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
+    z-index: 2;
 }
 
 /* UTILIDADES */
@@ -49,5 +50,11 @@ body {
     /* CARD  */
     .card-img-top {
         cursor: pointer;
+    }
+}
+
+@media(max-width: 992px) {
+    .navbar {
+        background-color: var(--background);
     }
 }
