@@ -69,7 +69,8 @@
     </header>
     <main>
         <!-- SECTION: QUIENES SOMOS -->
-        <section class="py-5 container" id="quienes-somos">
+        <!-- REQUERIMIENTO : esconder en pantalla mobile -->
+        <section class="py-5 container d-none d-lg-block" id="quienes-somos">
             <h2 class="text-center text-uppercase text-light my-3">¿Quienés somos?</h2>
             <hr class="text-secondary mb-4">
             <div class="row mt-4">
@@ -129,7 +130,7 @@
             <hr class="text-secondary mb-4">
             <div class="row mt-4">
                 <!-- COL: 1 > CARD : 1 -->
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0">
+                <div class="col-10 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0 mx-auto">
                     <div class="card">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="card imagen 1"
                             data-bs-toggle="tooltip" title="ampliar" data-bs-placement="bottom" height="190">
@@ -143,7 +144,7 @@
                     </div>
                 </div>
                 <!-- COL: 2 > CARD : 2 -->
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0">
+                <div class="col-10 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0 mx-auto">
                     <div class="card">
                         <img src="assets/img/card2.jpg" class="card-img-top" alt="card imagen 2"
                             data-bs-toggle="tooltip" title="ampliar" data-bs-placement="bottom" height="190">
@@ -157,7 +158,7 @@
                     </div>
                 </div>
                 <!-- COL: 3 > CARD : 3 -->
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0">
+                <div class="col-10 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0 mx-auto">
                     <div class="card">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="card imagen 3"
                             data-bs-toggle="tooltip" title="ampliar" data-bs-placement="bottom" height="190">
@@ -171,7 +172,7 @@
                     </div>
                 </div>
                 <!-- COL: 4 > CARD : 4 -->
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0">
+                <div class="col-10 col-md-6 col-lg-4 col-xl-3 mb-3 mb-xl-0 mx-auto">
                     <div class="card">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="card imagen 4"
                             data-bs-toggle="tooltip" title="ampliar" data-bs-placement="bottom" height="190">
@@ -193,31 +194,35 @@
         <section class="py-5 container" id="contacto">
             <h2 class="text-center text-uppercase my-3">Contacto</h2>
             <hr class="text-secondary mb-4">
-            <form action="" id="formulario" class="mt-4">
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input id="nombre" type="text" class="form-control" required>
+            <div class="row">
+                <div class="col-10 col-lg-12 mx-auto">
+                    <form action="" id="formulario" class="mt-4">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input id="nombre" type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto</label>
+                            <input id="asunto" type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea id="mensaje" cols="30" rows="10" class="form-control" required></textarea>
+                        </div>
+                        <button class="btn btn-info text-light" data-bs-toggle="tooltip"
+                            data-bs-title="Enviar mensaje">Enviar</button>
+                    </form>
                 </div>
-                <div class="mb-3">
-                    <label for="asunto" class="form-label">Asunto</label>
-                    <input id="asunto" type="text" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea id="mensaje" cols="30" rows="10" class="form-control" required></textarea>
-                </div>
-                <button class="btn btn-info text-light" data-bs-toggle="tooltip"
-                    data-bs-title="Enviar mensaje">Enviar</button>
-            </form>
+            </div>
         </section>
     </main>
     <!-- FOOTER -->
     <footer class="bg-info container-fluid py-3">
         <div class="row text-center align-items-center">
-            <div class="col-6 fs-4">
+            <div class="col-10 col-md-6 fs-4 mx-auto">
                 VIAJES CHILE
             </div>
-            <div class="col-6 text-center">
+            <div class="col-10 col-md-6 text-center mx-auto">
                 <a href="//github.com" class="text-decoration-none text-light" target="_blank">
                     <i class="fa-brands fa-github-square fs-4 me-2" data-bs-toggle="tooltip" data-bs-title="Github"></i>
                 </a>
