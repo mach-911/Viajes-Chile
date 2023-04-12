@@ -16,12 +16,6 @@
 
 ### Despliegue 
 
-<p align="center">
-  <a href="https://viajeschile.netlify.app/">
-	  <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B" alt="Open in Netlify" height="35">
-  </a>
-	&nbsp;&nbsp;&nbsp;
-  <a href="https://mach-911.github.io/viajes-chile/">
-	  <img alt="GitHub" src="https://img.shields.io/badge/-GitHub%20Pages-%23000?style=for-the-badge&logo=github&logoColor=ffffff" height="35">
-  </a>
-</p>
+
+[![Abrir en netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B)](https://viajeschile.netlify.app)
+[![Abrir en Github Pages](https://img.shields.io/badge/-GitHub%20Pages-%23000?style=for-the-badge&logo=github&logoColor=ffffff)](https://mach-911.github.io/viajes-chile/)
