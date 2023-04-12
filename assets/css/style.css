@@ -1,0 +1,53 @@
+:root {
+    --background: #000;
+    --forground: #f2f2f3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--forground);
+}
+
+/* NAVBAR  */
+.navbar {
+    font-weight: bold;
+    transition: background-color .2s ease-in-out;
+}
+
+/* DESTACADOS */
+#destacados {
+    position: relative;
+}
+
+#fullscreen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+/* UTILIDADES */
+.move {
+    font-weight: normal;
+    background-color: var(--background);
+}
+
+@media(hover:hover) {
+    #fullscreen {
+        cursor: pointer;
+    }
+
+    /* CARD  */
+    .card-img-top {
+        cursor: pointer;
+    }
+}
